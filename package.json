@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint": "eslint src --ext .ts,.tsx"
   },
   "files": [
     "dist"
@@ -34,6 +36,8 @@
     "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.1",
     "typescript": "^5.2.2",
     "vite": "^4.4.5"
   }
