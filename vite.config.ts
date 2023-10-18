@@ -4,6 +4,7 @@ export default {
       name: 'ts-lib-template',
       entry: './src/index.ts',
       formats: ['es', 'umd'],
+      fileName: 'index',
     },
   },
 };
