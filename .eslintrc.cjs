@@ -3,7 +3,7 @@ module.exports = {
     sourceType: 'module',
   },
   env: { es6: true },
-  extends: ['@yurychang', '@yurychang/typescript'],
+  extends: ['@yurychang', '@yurychang/typescript', 'prettier'],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   plugins: ['simple-import-sort', 'import'],
   rules: {
